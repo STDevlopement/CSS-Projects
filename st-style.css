@@ -1,0 +1,144 @@
+/* STYLES SEVEN TIMES LAB */
+/* RELEASE 2 VERSION 2.0 */
+/* ALL RIGHTS RESERVED */
+/* LAST UPDATE - 10.03.17 */
+/* BODY */
+body { margin: 0; padding: 0; }
+* { outline: none; margin: 0; padding: 0; }
+/* WIDTH AND HEIGHT */
+/* HEIGHT */
+/*************************************/
+/*
+1vh = 1%; Height
+1vw = 1%; Width
+1vw ~ 2vh; NOTICE: 1vw and 1vh taked width|height from all display.
+1% TAKE FROM PARENT BLOCK
+*/
+/*************************************/
+.vh100 { height: 100vh; }
+.vh95 { height: 95vh; }
+.vh90 { height: 90vh; }
+.vh85 { height: 85vh; }
+.vh80 { height: 80vh; }
+.vh75 { height: 75vh; }
+.vh70 { height: 70vh; }
+.vh65 { height: 65vh; }
+.vh60 { height: 60vh; }
+.vh55 { height: 55vh; }
+.vh50 { height: 50vh; }
+.vh45 { height: 45vh; }
+.vh40 { height: 40vh; }
+.vh35 { height: 35vh; }
+.vh30 { height: 30vh; }
+.vh25 { height: 25vh; }
+.vh20 { height: 20vh; }
+.vh15 { height: 15vh; }
+.vh10 { height: 10vh; }
+.vh5 { height: 5vh; }
+/* WIDTH */
+.vw100 { width: 100vw; overflow: hidden; }
+.vw95 { width: 95vw; overflow: hidden; }
+.vw90 { width: 90vw; overflow: hidden; }
+.vw85 { width: 85vw; overflow: hidden; }
+.vw80 { width: 80vw; overflow: hidden; }
+.vw75 { width: 75vw; overflow: hidden; }
+.vw70 { width: 70vw; overflow: hidden; }
+.vw65 { width: 65vw; overflow: hidden; }
+.vw60 { width: 60vw; overflow: hidden; }
+.vw55 { width: 55vw; overflow: hidden; }
+.vw50 { width: 50vw; overflow: hidden; }
+.vw45 { width: 45vw; overflow: hidden; }
+.vw40 { width: 40vw; overflow: hidden; }
+.vw35 { width: 35vw; overflow: hidden; }
+.vw30 { width: 30vw; overflow: hidden; }
+.vw25 { width: 25vw; overflow: hidden; }
+.vw20 { width: 20vw; overflow: hidden; }
+.vw15 { width: 15vw; overflow: hidden; }
+.vw10 { width: 10vw; overflow: hidden; }
+.vw5 { width: 5vw; overflow: hidden; }
+/* SPECIAL */
+.block1024 { width: 1024px; overflow: hidden; margin: 0px auto; }
+.block1280 { width: 1280px; overflow: hidden; margin: 0px auto; }
+.block1920 { width: 1920px; overflow: hidden; margin: 0px auto; }
+/* END OF WIDTH AND HEIGHT */
+/* HEADERS */
+.h1 { font-size: 4vh; text-transform: uppercase; }
+.h2 { font-size: 3.5vh; text-transform: uppercase; }
+.h3 { font-size: 3vh; text-transform: uppercase; }
+.h4 { font-size: 2.5vh; text-transform: uppercase; }
+.h5 { font-size: 2vh; text-transform: uppercase; }
+.h6 { font-size: 1.5vh; text-transform: uppercase; }
+/* END OF HEADERS */
+/* FLOAT */
+.left { float: left; }
+.right { float: right; }
+/* TEXT */
+.txtcenter { text-align: center; }
+.txtleft { text-align: left; }
+.txtright { text-align: right; }
+.justify { text-align: justify; }
+.center { margin: 0px auto; }
+.br { width: 100%; margin: 1px auto; }
+.tab { padding-left: 1vw; }
+/* PADDIGS */
+.pad1vh { padding: 1vh; }
+.pad2vh { padding: 2vh; }
+.pad3vh { padding: 3vh; }
+.pad4vh { padding: 4vh; }
+.pad5vh { padding: 5vh; }
+.pad6vh { padding: 6vh; }
+.pad7vh { padding: 7vh; }
+.pad8vh { padding: 8vh; }
+.pad9vh { padding: 9vh; }
+.pad10vh { padding: 10vh; }
+.pad11vh { padding: 11vh; }
+.pad12vh { padding: 12vh; }
+.pad13vh { padding: 13vh; }
+.pad14vh { padding: 14vh; }
+.pad15vh { padding: 15vh; }
+
+.pad1vw { padding: 1vw; }
+.pad2vw { padding: 2vw; }
+.pad3vw { padding: 3vw; }
+.pad4vw { padding: 4vw; }
+.pad5vw { padding: 5vw; }
+.pad6vw { padding: 6vw; }
+.pad7vw { padding: 7vw; }
+.pad8vw { padding: 8vw; }
+.pad9vw { padding: 9vw; }
+.pad10vw { padding: 10vw; }
+.pad11vw { padding: 11vw; }
+.pad12vw { padding: 12vw; }
+.pad13vw { padding: 13vw; }
+.pad14vw { padding: 14vw; }
+.pad15vw { padding: 15vw; }
+/* TABLE STYLE */
+.table-default-white {
+width: 100%;
+margin: 0px auto;
+border-collapse: collapse;
+}
+.table-default-white tr {
+border-collapse: collapse;
+border: 1px solid #FFF;
+}
+.table-default-white td {
+border-collapse: collapse;
+border: 1px solid #FFF;
+padding: 5px;
+}
+/* TAG CLASS */
+.-tag:after {
+content: '>';
+}
+.-tag:before {
+content: '<';
+}
+.-option {
+background-color: rgba(0, 0, 0, 0.2);
+padding: 0 5px;
+}
+.code {
+background-color: rgba(0, 0, 0, 0.8);
+color: #FFF;
+}
