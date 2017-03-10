@@ -1,0 +1,15 @@
+/* 
+DROPDOWN MENU
+BY SEVEN TIMES LAB
+VERSION 2.0
+LAST UPDATE - 10.03.17
+*/
+.menu-dropdown { list-style-type: none; display: inline-table; margin: 0; padding: 0; display: inline-block; }
+.menu-dropdown ul { padding: 0; margin: 0; }
+.menu-dropdown .menu-list { position: relative; list-style-type: none; z-index: 2; }
+.menu-dropdown .menu-drop { visibility: hidden; position: absolute; top: -9999em; transition: .3s opacity; list-style-type: none; opacity: 0;z-index: 10; float: left; }
+.menu-dropdown .menu-list:hover > .menu-drop { position: relative; visibility: visible; top: 0px; opacity: 1; transition: 1s opacity; }
+.menu-dropdown .dropright { position: absolute; left: -100%; top: -2vh; z-index: -1; list-style-type: none; opacity: 0; float: left; }
+.menu-dropdown .menu-list:hover > .dropright { top: -2vh; opacity: 1; left: 100%; }
+.menu-dropdown .dropleft { position: absolute; right: -100%; top: -2vh; z-index: -1; list-style-type: none; opacity: 0; float: left; }
+.menu-dropdown .menu-list:hover > .dropleft { top: -2vh; opacity: 1; right: 100%; }
